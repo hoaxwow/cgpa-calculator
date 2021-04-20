@@ -30,7 +30,7 @@ def cgpacalculator(totalsem):
         print(f"Your CGPA Is {cgpa}")
     #twoyearcourse
     elif totalsem == 4:
-        sem1 = input("Enter yur sgpa in first sem: ")
+        sem1 = input("Enter your sgpa in first sem: ")
         sem1 = float(sem1)
         sem2 = input("Enter your sgpa in second sem: ")
         sem2= float(sem2)
@@ -43,7 +43,7 @@ def cgpacalculator(totalsem):
         print(f"Your CGPA Is {cgpa}")
     #threeyearcourse
     elif totalsem == 6:
-        sem1 = input("Enter yur sgpa in first sem: ")
+        sem1 = input("Enter your sgpa in first sem: ")
         sem1 = float(sem1)
         sem2 = input("Enter your sgpa in second sem: ")
         sem2 = float(sem2)
@@ -60,7 +60,7 @@ def cgpacalculator(totalsem):
         print(f"Your CGPA Is {cgpa}")
     #fouryearcourse
     elif totalsem == 8:
-        sem1 = input("Enter yur sgpa in first sem: ")
+        sem1 = input("Enter your sgpa in first sem: ")
         sem1 = float(sem1)
         sem2 = input("Enter your sgpa in second sem: ")
         sem2 = float(sem2)
@@ -81,7 +81,7 @@ def cgpacalculator(totalsem):
         print(f"Your CGPA Is {cgpa}")
     #fiveyearcourse  
     elif totalsem == 10:
-        sem1 = input("Enter yur sgpa in first sem: ")
+        sem1 = input("Enter your sgpa in first sem: ")
         sem1 = float(sem1)
         sem2 = input("Enter your sgpa in second sem: ")
         sem2 = float(sem2)
@@ -148,7 +148,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (2*cgpa)-sem1
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
 
@@ -161,7 +161,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (3*cgpa)-sem1-sem2
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
 
@@ -176,7 +176,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (4*cgpa)-sem1-sem2-sem3
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
     
@@ -193,7 +193,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (5*cgpa)-sem1-sem2-sem3-sem4
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
 
@@ -212,7 +212,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (6*cgpa)-sem1-sem2-sem3-sem4-sem5
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
 
@@ -233,7 +233,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (7*cgpa)-sem1-sem2-sem3-sem4-sem5-sem6
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
     
@@ -256,7 +256,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (8*cgpa)-sem1-sem2-sem3-sem4-sem5-sem6-sem7
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
 
@@ -281,7 +281,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (8*cgpa)-sem1-sem2-sem3-sem4-sem5-sem6-sem7
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
 
@@ -308,7 +308,7 @@ def semmarks(totalsem):
         cgpa = float(cgpa)
         sem = (10*cgpa)-sem1-sem2-sem3-sem4-sem5-sem6-sem7-sem8-sem9
         if sem > 10:
-            print(f"You cannnot get his desried cgpa as you cannot score {sem}.")
+            print(f"You cannnot get this desried cgpa as you cannot score {sem}.")
         else:
             print(f"You need to score {sem} to attain your desired CGPA")
 
